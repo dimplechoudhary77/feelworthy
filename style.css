@@ -435,48 +435,7 @@
 /* Mobile view fixes */
 @media (max-width: 768px) {
 
-    /* Overall font scaling */
-    body {
-        font-size: 14px;
-    }
-
-    /* Navbar adjustments */
-    .navbar3 {
-        flex-direction: column;
-        height: auto;
-        padding: 10px 0;
-    }
-    .navbar-links {
-        flex-direction: column;
-        margin-top: 10px;
-    }
-    .navbar-links a {
-        margin: 5px 0;
-        font-size: 14px;
-    }
-
-    /* Product grid mobile */
-    .products-grid {
-        flex-direction: column;
-        gap: 15px;
-    }
-    .product {
-        width: 90%;
-    }
-    .image-container {
-        width: 100%;
-        height: auto;
-    }
-    .image-container img {
-        width: 100%;
-        height: auto;
-    }
-    .product p {
-        margin-left: 0;
-        padding: 0 10px;
-        font-size: 14px;
-    }
-
+    
     /* Navbar5 adjustments */
     .navbar5 {
         height: auto;
