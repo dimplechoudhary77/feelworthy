@@ -51,6 +51,7 @@
     background-color: #151616;
     display: flex;
     align-items: center;
+    
     justify-content: space-evenly; 
     box-shadow: 0 -0.1px 0 rgba(71, 173, 231, 0.75), 0 0.1px 0 rgba(71, 173, 231, 0.75);
 } 
