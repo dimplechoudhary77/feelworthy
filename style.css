@@ -1,3 +1,4 @@
+
 *{
     padding: 0;
     margin: 0;
@@ -430,5 +431,78 @@
     font-family: "Poppins", serif;
     
 }
+/* Mobile view fixes */
+@media (max-width: 768px) {
 
+    /* Overall font scaling */
+    body {
+        font-size: 14px;
+    }
 
+    /* Navbar adjustments */
+    .navbar3 {
+        flex-direction: column;
+        height: auto;
+        padding: 10px 0;
+    }
+    .navbar-links {
+        flex-direction: column;
+        margin-top: 10px;
+    }
+    .navbar-links a {
+        margin: 5px 0;
+        font-size: 14px;
+    }
+
+    /* Product grid mobile */
+    .products-grid {
+        flex-direction: column;
+        gap: 15px;
+    }
+    .product {
+        width: 90%;
+    }
+    .image-container {
+        width: 100%;
+        height: auto;
+    }
+    .image-container img {
+        width: 100%;
+        height: auto;
+    }
+    .product p {
+        margin-left: 0;
+        padding: 0 10px;
+        font-size: 14px;
+    }
+
+    /* Navbar5 adjustments */
+    .navbar5 {
+        height: auto;
+        text-align: center;
+        padding: 20px;
+    }
+    .navbar5 img {
+        width: 80%;
+        height: auto;
+        padding: 0;
+        margin: 0 auto;
+    }
+    .navbar5 h2 {
+        position: static;
+        transform: none;
+        margin-top: 20px;
+        font-size: 22px;
+    }
+    .spotifyplaylist {
+        position: static;
+        margin-top: 15px;
+        display: inline-block;
+    }
+
+    /* Navbar6 form */
+    .subscribe-form input {
+        width: 90%;
+        margin-bottom: 20px;
+    }
+}
